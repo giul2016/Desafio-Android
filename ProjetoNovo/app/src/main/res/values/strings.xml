@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MyCatwalk</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_activity_calendario">CalendarioActivity</string>
+    <string name="title_home">Photo</string>
+    <string name="title_dashboard">Calendar</string>
+    <string name="title_notifications">Maps</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="search_title">Pesquisar</string>
+
+    <string name="facebook_app_id">579735416096192</string>
+    <string name="fb_login_protocol_scheme">fb579735416096192</string>
+    <string name="title_activity_maps2">Map</string>
+
+    <string name="title_activity_fotos">FotosActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

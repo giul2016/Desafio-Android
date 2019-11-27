@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.giul.projetonovo.activity.CalendarioActivity"
+    android:background="#4F4F4F">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="413dp"
+        android:layout_marginBottom="56dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.prolificinteractive.materialcalendarview.MaterialCalendarView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:mcv_selectionColor="#00F"
+            app:mcv_showOtherDates="all" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:layout_margin="8dp"
+
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="36dp"
+        android:paddingRight="36dp"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="7dp"
+        android:background="#4F4F4F"
+        tools:ignore="MissingConstraints">
+
+
+
+        <ImageView
+            android:id="@+id/clock"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/horas"
+
+
+            android:textSize="16sp" />
+
+        <TextClock
+            android:id="@+id/t1_temp"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+
+            android:text="18:45"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/i_icone"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+           android:layout_marginLeft="30dp"
+            android:background="@drawable/tempo"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/t_max"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="45dp"
+
+            android:text="22º"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

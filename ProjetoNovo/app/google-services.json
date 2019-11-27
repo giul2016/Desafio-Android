@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "659282182936",
+    "firebase_url": "https://projetocatwalk-c9194.firebaseio.com",
+    "project_id": "projetocatwalk-c9194",
+    "storage_bucket": "projetocatwalk-c9194.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659282182936:android:6a0a6b8aa01afd5719946d",
+        "android_client_info": {
+          "package_name": "com.giul.projetonovo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659282182936-7sj3hd03ucv2paapvqh9r5o70eioflru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.giul.projetonovo",
+            "certificate_hash": "e7d80dd6225fb6e12274fc8cf70cf67a4872cabd"
+          }
+        },
+        {
+          "client_id": "659282182936-51sl3pse2nnln4mcftc2sfremo4r9qa4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfM7VpO3wYj-4A8mS_pgmnfW5v6ng8d4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659282182936-51sl3pse2nnln4mcftc2sfremo4r9qa4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
