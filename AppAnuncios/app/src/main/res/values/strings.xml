@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Anuncios</string>
+    <string name="title_activity_meus_anuncios">Meus anúncios</string>
+    <string name="emprego">Emprego</string>
+
+    <string-array name="estados">
+        <item>AC</item>
+        <item>AL</item>
+        <item>AM</item>
+        <item>AP</item>
+        <item>BA</item>
+        <item>CE</item>
+        <item>DF</item>
+        <item>ES</item>
+        <item>GO</item>
+        <item>MA</item>
+        <item>MG</item>
+        <item>MS</item>
+        <item>MT</item>
+        <item>PA</item>
+        <item>PB</item>
+        <item>PE</item>
+        <item>PI</item>
+        <item>PR</item>
+        <item>RJ</item>
+        <item>RN</item>
+        <item>RO</item>
+        <item>RR</item>
+        <item>RS</item>
+        <item>SC</item>
+        <item>SE</item>
+        <item>SP</item>
+        <item>TO</item>
+    </string-array>
+
+    <string-array name="categorias">
+        <item>Automóveis</item>
+        <item>Remedios</item>
+        <item>Eletronicos</item>
+        <item>Moda</item>
+        <item>Esportes</item>
+        <item>Informatica</item>
+        <item>Infantil</item>
+        <item>Alimenticios</item>
+        <item>Utensilios domesticos</item>
+        <item>Diversos</item>
+        <item>Depositos</item>
+    </string-array>
+
+    <string-array name="lojas">
+        <item>Farmacias</item>
+        <item>Supermercados</item>
+        <item>Veterinarias</item>
+        <item>Depositos</item>
+        <item>Hoteis</item>
+        <item>Bijouterias</item>
+        <item>Oticas</item>
+        <item>Eletronicos</item>
+        <item>Informatica</item>
+        <item>Agencia de carros</item>
+        <item>Diversos</item>
+    </string-array>
+
+
+    <string name="card_title_preview">Preview</string>
+    <string name="card_title_credits">Credits</string>
+
+    <string name="preview_title_big_cards">Big cards</string>
+    <string name="preview_title_small_cards">Small cards</string>
+    <string name="preview_title_vertical">Vertical scroll</string>
+
+    <string name="credit_title_taya">Taisiya Yurkiv</string>
+    <string name="credit_title_flaticon">Zlatko Najdenovski, Freepik</string>
+    <string name="credit_title_herriot">Herriottgrace</string>
+    <string name="credit_summary_taya">Sample app design</string>
+    <string name="credit_summary_flaticon">Monument icons from www.flaticon.com</string>
+    <string name="credit_summary_herriot">Shop goods photos from www.herriottgrace.com</string>
+
+    <string name="btn_smooth_scroll">Smooth scroll</string>
+    <string name="btn_transition_time">Transition time</string>
+
+    <string name="dialog_seekbar_transition_time">Item transition time in millis</string>
+
+    <string name="msg_no_browser">No app found to open the url</string>
+    <string name="msg_unsupported_op">Unsupported operation</string>
+
+    <string name="pref_key_transition_time" translatable="false">pref_key_transition_time</string>
+
+    <string name="mi_rate_on_github">Rate on GitHub</string>
+    <string name="dsv_ex_msg_adapter_wrong_recycler" />
+
+
+</resources>

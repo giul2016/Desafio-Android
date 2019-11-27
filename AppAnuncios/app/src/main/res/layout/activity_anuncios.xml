@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    tools:context="com.br.appanuncios.activity.AnunciosActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonRegiao"
+            style="?attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="filtrarPorEstado"
+            android:text="Loja"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="|" />
+
+        <Button
+            android:id="@+id/buttonCategoria"
+            style="?attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="filtrarPorCategoria"
+            android:text="Categoria"
+            android:textColor="@color/colorPrimary" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textDiversos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diversos"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="45dp"
+            android:textColor="#8A2BE2"
+            android:visibility="visible"/>
+    </LinearLayout>
+
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerAnunciosPublicos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
